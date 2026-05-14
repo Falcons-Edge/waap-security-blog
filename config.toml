@@ -1,5 +1,12 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
 title = "Security Blog"
-theme = "ananke"
-paginate = 10
+
+[pagination]
+  pagerSize = 10
+
+[permalinks]
+  posts = "/:slug/"
+
+[params]
+  description = "A security blog"
