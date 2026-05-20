@@ -1,0 +1,6 @@
+baseURL = "https://waap-security-blog.pages.dev/"
+languageCode = "en-us"
+title = "WAAP Security Blog"
+[pagination]
+pagerSize = 10
+theme = "ananke"
