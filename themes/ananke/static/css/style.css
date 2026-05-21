@@ -31,7 +31,7 @@ header h1 a {
 
 header nav a {
   margin-left: 1.5rem;
-  color: #64748b;
+  color: #475569;
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
@@ -60,7 +60,7 @@ header nav a:hover {
 
 .hero .tagline {
   font-size: 1.1rem;
-  color: #94a3b8;
+  color: #e2e8f0;
   max-width: 600px;
   margin: 0 auto 1rem;
   line-height: 1.6;
@@ -68,7 +68,7 @@ header nav a:hover {
 
 .hero .about-text {
   font-size: 0.95rem;
-  color: #cbd5e1;
+  color: #f1f5f9;
   max-width: 650px;
   margin: 0 auto;
   line-height: 1.7;
@@ -84,12 +84,12 @@ header nav a:hover {
 }
 
 .hero .topic-tag {
-  background: rgba(255,255,255,0.1);
-  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
-  color: #94a3b8;
+  color: #cbd5e1;
 }
 
 /* Post Grid */
@@ -239,7 +239,7 @@ footer {
   padding: 2rem 0;
   border-top: 1px solid #e2e8f0;
   margin-top: 3rem;
-  color: #94a3b8;
+  color: #64748b;
   font-size: 0.85rem;
 }
 
