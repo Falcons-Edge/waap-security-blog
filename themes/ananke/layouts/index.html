@@ -3,29 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <title>{{ .Site.Title }}</title>
     <link rel="stylesheet" href="/css/style.css">
     <meta name="description" content="{{ .Site.Params.description | default .Site.Title }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "/index.xml" | absURL }}">
 </head>
 <body>
     <header>
         <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
         <nav>
             <a href="{{ "/" | relURL }}">Home</a>
+            <a href="{{ "/posts/" | relURL }}">All Posts</a>
         </nav>
     </header>
     <main>
-        <h1>{{ .Title }}</h1>
-        {{ range .Pages }}
+        {{ if .IsHome }}
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>{{ .Site.Title }}</h1>
+            <p class="tagline">{{ .Site.Params.tagline | default "Expert insights for security professionals" }}</p>
+            <p class="about-text">{{ .Site.Params.about | default "Practical, battle-tested guidance on securing modern infrastructure. Written by practitioners who have been in the trenches — from network security to cloud defense to AI threats." }}</p>
+            <div class="topics">
+                {{ range .Site.Params.topics }}
+                <span class="topic-tag">{{ . }}</span>
+                {{ end }}
+            </div>
+        </div>
+
+        <h2 class="section-title">Latest Posts</h2>
+        <p class="section-subtitle">Recent articles and deep dives</p>
+
+        <div class="posts-grid">
+            {{ $posts := where .Site.RegularPages "Section" "posts" }}
+            {{ range $posts.ByDate.Reverse }}
+            <div class="post-card">
+                <div class="post-card-image">
+                    {{ $img := .Params.featured_image | default "" }}
+                    {{ if $img }}
+                    <img src="{{ $img | relURL }}" alt="{{ .Title }}" loading="lazy">
+                    {{ else }}
+                    <div style="color:#94a3b8;font-size:2rem;">📄</div>
+                    {{ end }}
+                </div>
+                <div class="post-card-body">
+                    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                    <div class="meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+                    <div class="excerpt">{{ .Summary | plainify | truncate 150 }}</div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        {{ else }}
+        <!-- Section / single pages -->
+        <a href="{{ "/" | relURL }}" class="back-link">&larr; Back to Home</a>
+        {{ if .IsPage }}
         <article>
-            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-            <p>{{ .Summary }}</p>
+            {{ if .Params.featured_image }}
+            <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}" style="max-height:300px;width:100%;object-fit:cover;">
+            {{ end }}
+            <h1>{{ .Title }}</h1>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ .Content }}
         </article>
+        {{ else }}
+        <h1>{{ .Title }}</h1>
+        <div class="post-list">
+            {{ range .Pages.ByDate.Reverse }}
+            <article>
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <div class="meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+                <p>{{ .Summary | plainify | truncate 200 }}</p>
+            </article>
+            {{ end }}
+        </div>
+        {{ end }}
         {{ end }}
     </main>
     <footer>
-        <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+        <p>&copy; {{ now.Year }} {{ .Site.Title }}. All rights reserved.</p>
     </footer>
 </body>
 </html>

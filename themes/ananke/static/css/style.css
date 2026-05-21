@@ -1,4 +1,275 @@
-body { font-family: system-ui, sans-serif; max-width: 800px; margin: 0 auto; padding: 1rem; line-height: 1.6; }
-header { border-bottom: 1px solid #eee; margin-bottom: 2rem; }
-nav a { margin-right: 1rem; }
-article { margin-bottom: 2rem; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  line-height: 1.7;
+  color: #1e293b;
+  background: #f8fafc;
+}
+
+/* Header */
+header {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+header h1 a {
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+header nav a {
+  margin-left: 1.5rem;
+  color: #64748b;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+header nav a:hover {
+  color: #1e293b;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2.5rem;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  border-radius: 12px;
+  margin: 1.5rem 0 2.5rem;
+  color: #f1f5f9;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin: 0 0 0.8rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.hero .tagline {
+  font-size: 1.1rem;
+  color: #94a3b8;
+  max-width: 600px;
+  margin: 0 auto 1rem;
+  line-height: 1.6;
+}
+
+.hero .about-text {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+  padding: 0 1rem;
+}
+
+.hero .topics {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero .topic-tag {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+/* Post Grid */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.post-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.post-card-image {
+  width: 100%;
+  height: 160px;
+  background: #f1f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.post-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-card-body {
+  padding: 1.2rem;
+}
+
+.post-card-body h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.post-card-body h2 a {
+  color: #0f172a;
+  text-decoration: none;
+}
+
+.post-card-body h2 a:hover {
+  color: #2563eb;
+}
+
+.post-card-body .meta {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+}
+
+.post-card-body .excerpt {
+  font-size: 0.85rem;
+  color: #64748b;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 2rem 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.section-subtitle {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+}
+
+/* Standard content */
+main h1 { font-size: 1.8rem; font-weight: 700; color: #0f172a; }
+main img { max-width: 100%; height: auto; border-radius: 8px; margin: 1.5rem 0; }
+article { margin-bottom: 2.5rem; }
+article h1 { font-size: 1.6rem; }
+article time { color: #94a3b8; font-size: 0.85rem; display: block; margin-bottom: 1rem; }
+article h2 { font-size: 1.3rem; margin-top: 2rem; color: #0f172a; }
+article h3 { font-size: 1.1rem; margin-top: 1.5rem; }
+article p, article li { color: #334155; }
+article a { color: #2563eb; }
+
+/* Tables */
+article table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.9rem; }
+article th, article td { padding: 0.6rem 0.8rem; border: 1px solid #e2e8f0; text-align: left; }
+article th { background: #f1f5f9; font-weight: 600; color: #0f172a; }
+
+/* Code blocks */
+article code { background: #f1f5f9; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.85rem; }
+article pre code { background: none; padding: 0; }
+article pre {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* Blockquotes */
+article blockquote {
+  border-left: 4px solid #2563eb;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0;
+  background: #f1f5f9;
+  border-radius: 0 8px 8px 0;
+  color: #475569;
+  font-style: italic;
+}
+
+/* Lists */
+article ol, article ul { padding-left: 1.5rem; }
+article li { margin-bottom: 0.3rem; }
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  color: #64748b;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.back-link:hover { color: #0f172a; }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid #e2e8f0;
+  margin-top: 3rem;
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+/* Pagination */
+.pagination {
+  text-align: center;
+  padding: 1rem 0;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .hero h1 { font-size: 1.6rem; }
+  .posts-grid { grid-template-columns: 1fr; }
+  header { flex-direction: column; gap: 0.5rem; }
+  header nav a { margin: 0 0.75rem; }
+}
+
+/* Post list pages (e.g., /posts/) */
+.post-list article {
+  padding: 1.2rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.post-list article h2 { margin: 0 0 0.3rem; font-size: 1.1rem; }
+.post-list article h2 a { color: #0f172a; text-decoration: none; }
+.post-list article h2 a:hover { color: #2563eb; }
+.post-list article .meta { font-size: 0.8rem; color: #94a3b8; }
+.post-list article p { font-size: 0.9rem; color: #64748b; margin: 0.5rem 0 0; }
