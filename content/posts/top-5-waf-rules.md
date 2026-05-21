@@ -2,6 +2,7 @@
 title: "Top 5 WAF Rules Every Website Should Have"
 date: 2026-05-16T08:00:00Z
 draft: false
+featured_image: "/images/waap-architecture.svg"
 ---
 
 A Web Application Firewall is only as good as the rules it enforces. Default rule sets are a solid starting point, but they don't account for your application's specific threat profile. Here are five essential WAF rules that every website — regardless of technology stack or industry — should have in place.

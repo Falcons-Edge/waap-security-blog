@@ -2,6 +2,7 @@
 title: "What Is a WAAP? Understanding Web Application and API Protection"
 date: 2026-05-15T08:00:00Z
 draft: false
+featured_image: "/images/waap-architecture.svg"
 ---
 
 If you've been in web security for more than a year, you've heard of WAFs — Web Application Firewalls. But in 2026, WAF alone isn't enough. Enter WAAP: Web Application and API Protection. It's the evolution of web security for a world where APIs outnumber web pages.
@@ -13,6 +14,8 @@ A traditional WAF inspects HTTP traffic and blocks common web attacks — SQL in
 But modern applications don't work the way they did twenty years ago. Today's applications are API-first. A single web page might make dozens of API calls to microservices. Mobile apps are pure API consumers. IoT devices communicate exclusively through APIs. And APIs have fundamentally different security requirements than traditional web pages.
 
 WAAP platforms address this shift by combining four capabilities into a single, integrated solution:
+
+![WAAP Platform Architecture](/images/waap-architecture.svg)
 
 1. **WAF** — traditional web application firewall protection
 2. **API security** — API-specific threat detection and validation

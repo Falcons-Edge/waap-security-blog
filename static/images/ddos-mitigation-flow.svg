@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="800" height="450" fill="none" stroke="#334155" stroke-width="2" rx="12"/>
+  <text x="400" y="40" text-anchor="middle" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="20" font-weight="bold">DDoS Attack Mitigation Flow</text>
+  <text x="400" y="60" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="12">How a WAAP Platform Stops Multi-Vector Attacks at the Edge</text>
+
+  <rect x="60" y="90" width="180" height="100" rx="8" fill="#1e293b" stroke="#f87171" stroke-width="1.5"/>
+  <text x="150" y="112" text-anchor="middle" fill="#f87171" font-family="system-ui,sans-serif" font-size="12" font-weight="bold">Attacker Botnet</text>
+  <text x="110" y="135" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">Compromised IoT</text>
+  <text x="190" y="135" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">Bot nodes</text>
+  <text x="110" y="152" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">Cloud VMs</text>
+  <text x="190" y="152" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">Proxy chains</text>
+  <text x="150" y="175" text-anchor="middle" fill="#f87171" font-family="system-ui,sans-serif" font-size="10">1 Tbps+ Volumetric Flood</text>
+
+  <rect x="60" y="205" width="180" height="75" rx="6" fill="#0f172a" stroke="#fb7185" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="150" y="222" text-anchor="middle" fill="#fb7185" font-family="system-ui,sans-serif" font-size="10" font-weight="bold">Attack Vectors</text>
+  <text x="150" y="240" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="9">SYN Flood | UDP Amplification</text>
+  <text x="150" y="256" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="9">HTTP Flood | Slowloris | L7</text>
+  <text x="150" y="270" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="9">DNS Amplification</text>
+
+  <line x1="240" y1="140" x2="310" y2="140" stroke="#f87171" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="315,140 305,134 305,146" fill="#f87171"/>
+  <text x="275" y="130" text-anchor="middle" fill="#f87171" font-family="system-ui,sans-serif" font-size="9">Attack traffic</text>
+
+  <rect x="320" y="90" width="200" height="190" rx="10" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+  <text x="420" y="112" text-anchor="middle" fill="#38bdf8" font-family="system-ui,sans-serif" font-size="14" font-weight="bold">WAAP Edge Network</text>
+  <rect x="335" y="125" width="170" height="35" rx="5" fill="#881337" stroke="#fb7185" stroke-width="1"/>
+  <text x="420" y="140" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9" font-weight="bold">L3/4 Mitigation</text>
+  <text x="420" y="153" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="8">Traffic scrubbing - Rate limiting</text>
+  <rect x="335" y="170" width="170" height="35" rx="5" fill="#4c1d95" stroke="#a78bfa" stroke-width="1"/>
+  <text x="420" y="185" text-anchor="middle" fill="#c4b5fd" font-family="system-ui,sans-serif" font-size="9" font-weight="bold">L7 Inspection</text>
+  <text x="420" y="198" text-anchor="middle" fill="#c4b5fd" font-family="system-ui,sans-serif" font-size="8">Behavioral analysis - Challenge</text>
+  <rect x="335" y="215" width="170" height="35" rx="5" fill="#78350f" stroke="#fbbf24" stroke-width="1"/>
+  <text x="420" y="230" text-anchor="middle" fill="#fde68a" font-family="system-ui,sans-serif" font-size="9" font-weight="bold">Traffic Shaping</text>
+  <text x="420" y="243" text-anchor="middle" fill="#fde68a" font-family="system-ui,sans-serif" font-size="8">Adaptive rate limits - QoS</text>
+  <text x="420" y="268" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="9">300+ PoPs - 200 Tbps capacity</text>
+
+  <line x1="520" y1="185" x2="590" y2="185" stroke="#34d399" stroke-width="3"/>
+  <polygon points="595,185 585,179 585,191" fill="#34d399"/>
+  <text x="555" y="178" text-anchor="middle" fill="#34d399" font-family="system-ui,sans-serif" font-size="10">Clean traffic</text>
+
+  <rect x="600" y="150" width="160" height="80" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+  <text x="680" y="178" text-anchor="middle" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="13" font-weight="bold">Origin Server</text>
+  <text x="680" y="195" text-anchor="middle" fill="#6ee7b7" font-family="system-ui,sans-serif" font-size="10">Normal operation</text>
+  <text x="680" y="212" text-anchor="middle" fill="#6ee7b7" font-family="system-ui,sans-serif" font-size="10">No impact</text>
+
+  <rect x="60" y="305" width="680" height="125" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="400" y="328" text-anchor="middle" fill="#fbbf24" font-family="system-ui,sans-serif" font-size="13" font-weight="bold">Mitigation Statistics</text>
+  <rect x="80" y="340" width="140" height="70" rx="6" fill="#0f172a" stroke="#34d399" stroke-width="1"/>
+  <text x="150" y="362" text-anchor="middle" fill="#34d399" font-family="system-ui,sans-serif" font-size="18" font-weight="bold">200 Tbps</text>
+  <text x="150" y="380" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="9">Scrubbing capacity</text>
+  <text x="150" y="395" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="8">Absorbs largest attacks</text>
+  <rect x="250" y="340" width="140" height="70" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+  <text x="320" y="362" text-anchor="middle" fill="#38bdf8" font-family="system-ui,sans-serif" font-size="18" font-weight="bold">50ms</text>
+  <text x="320" y="380" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="9">Mitigation latency</text>
+  <text x="320" y="395" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="8">Real-time threat response</text>
+  <rect x="420" y="340" width="140" height="70" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1"/>
+  <text x="490" y="362" text-anchor="middle" fill="#a78bfa" font-family="system-ui,sans-serif" font-size="18" font-weight="bold">99.99%</text>
+  <text x="490" y="380" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="9">Mitigation efficacy</text>
+  <text x="490" y="395" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="8">Attack traffic blocked</text>
+  <rect x="590" y="340" width="130" height="70" rx="6" fill="#0f172a" stroke="#fbbf24" stroke-width="1"/>
+  <text x="655" y="362" text-anchor="middle" fill="#fbbf24" font-family="system-ui,sans-serif" font-size="18" font-weight="bold">Auto</text>
+  <text x="655" y="380" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="9">Self-learning</text>
+  <text x="655" y="395" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="8">Adaptive baseline</text>
+</svg>

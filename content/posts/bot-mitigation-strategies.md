@@ -2,6 +2,7 @@
 title: "Bot Mitigation Strategies: Separating Good Bots from Bad"
 date: 2026-05-18T08:00:00Z
 draft: false
+featured_image: "/images/waap-architecture.svg"
 ---
 
 Not all bots are bad. Search engine crawlers help people find your content. Monitoring bots check your uptime. Chatbots provide customer service. Price comparison bots — well, those are a judgment call.
