@@ -12,16 +12,23 @@
         <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
         <nav>
             <a href="{{ "/" | relURL }}">Home</a>
+            <a href="{{ "/posts/" | relURL }}">All Posts</a>
         </nav>
     </header>
     <main>
+        <a href="{{ "/" | relURL }}" class="back-link">&larr; Back to Home</a>
         <h1>{{ .Title }}</h1>
-        {{ range .Pages }}
-        <article>
-            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-            <p>{{ .Summary }}</p>
-        </article>
+        <div class="post-list">
+            {{ range .Pages.ByDate.Reverse }}
+            <article>
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <div class="meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+                <p>{{ .Summary | plainify | truncate 200 }}</p>
+            </article>
+            {{ end }}
+        </div>
+        {{ if not .Pages }}
+        <p>No posts yet. Check back soon.</p>
         {{ end }}
     </main>
     <footer>
