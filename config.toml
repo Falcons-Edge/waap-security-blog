@@ -1,6 +1,6 @@
 baseURL = "https://waap-security.uk/"
 languageCode = "en-us"
 title = "WAAP Security Blog"
+theme = "ananke"
 [pagination]
 pagerSize = 10
-theme = "ananke"

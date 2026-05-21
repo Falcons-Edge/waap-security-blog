@@ -1,9 +1,28 @@
-{{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
-{{ define "main" }}
-<article>
-    <h1>{{ .Title }}</h1>
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-    {{ .Content }}
-</article>
-{{ end }}
-{{ template "baseof.html" . }}
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="description" content="{{ .Site.Params.description | default .Site.Title }}">
+</head>
+<body>
+    <header>
+        <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
+        <nav>
+            <a href="{{ "/" | relURL }}">Home</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>{{ .Title }}</h1>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            {{ .Content }}
+        </article>
+    </main>
+    <footer>
+        <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+    </footer>
+</body>
+</html>
