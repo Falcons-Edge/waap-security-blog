@@ -2,9 +2,12 @@
 title: "DDoS Protection: How Modern WAAP Solutions Stop Attacks"
 date: 2026-05-19T08:00:00Z
 draft: false
+featured_image: "/images/ddos-mitigation-flow.svg"
 ---
 
 Distributed Denial of Service attacks have been a threat since the early days of the internet. But the scale, sophistication, and frequency of modern DDoS attacks would be unrecognizable to network engineers from twenty years ago. Today's attacks routinely exceed one terabit per second and exploit application-layer vulnerabilities that traditional mitigation can't handle.
+
+![DDoS Attack Mitigation Flow](/images/ddos-mitigation-flow.svg)
 
 ## The Evolving DDoS Threat
 

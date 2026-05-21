@@ -2,6 +2,7 @@
 title: "API Security Best Practices in 2026"
 date: 2026-05-17T08:00:00Z
 draft: false
+featured_image: "/images/waap-architecture.svg"
 ---
 
 APIs are the backbone of modern application architecture. They power mobile apps, connect microservices, enable third-party integrations, and drive the data economy. They're also the single most targeted attack surface in enterprise infrastructure. Here's what API security looks like in 2026.
