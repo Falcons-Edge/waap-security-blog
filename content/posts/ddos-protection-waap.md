@@ -1,6 +1,6 @@
 ---
 title: "DDoS Protection: How Modern WAAP Solutions Stop Attacks"
-date: 2026-05-21T08:00:00Z
+date: 2026-05-18T08:00:00Z
 draft: false
 featured_image: "/images/ddos-mitigation-flow.svg"
 ---

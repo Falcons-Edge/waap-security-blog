@@ -1,6 +1,6 @@
 ---
 title: "API Security Best Practices in 2026"
-date: 2026-05-21T08:00:00Z
+date: 2026-05-04T08:00:00Z
 draft: false
 featured_image: "/images/waap-architecture.svg"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Top 5 WAF Rules Every Website Should Have"
-date: 2026-05-21T08:00:00Z
+date: 2026-04-27T08:00:00Z
 draft: false
 featured_image: "/images/waap-architecture.svg"
 ---
