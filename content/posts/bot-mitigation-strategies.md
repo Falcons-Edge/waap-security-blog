@@ -1,6 +1,6 @@
 ---
 title: "Bot Mitigation Strategies: Separating Good Bots from Bad"
-date: 2026-05-21T08:00:00Z
+date: 2026-05-11T08:00:00Z
 draft: false
 featured_image: "/images/waap-architecture.svg"
 ---
