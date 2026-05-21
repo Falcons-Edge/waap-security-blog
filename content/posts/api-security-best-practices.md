@@ -82,8 +82,8 @@ Log all API requests with enough context for forensic analysis. Client IP, API k
 
 *Want to go deeper? Check out these resources on Amazon:*
 
-- <a href="https://www.amazon.com/dp/1617296024?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">API Security in Action</a>
-- <a href="https://www.amazon.com/dp/1718502444?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">Hacking APIs</a>
+- [API Security in Action](https://www.amazon.com/dp/1617296024?tag=falconsedge-20)
+- [Hacking APIs](https://www.amazon.com/dp/1718502444?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*
 

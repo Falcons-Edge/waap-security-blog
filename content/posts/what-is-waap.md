@@ -54,8 +54,8 @@ Not all WAAP platforms are created equal. Here's what to evaluate:
 
 *Want to go deeper? Check out these resources on Amazon:*
 
-- <a href="https://www.amazon.com/dp/1118026470?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">The Web Application Hacker's Handbook</a>
-- <a href="https://www.amazon.com/dp/1492053112?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">Web Application Security</a>
+- [The Web Application Hacker's Handbook](https://www.amazon.com/dp/1118026470?tag=falconsedge-20)
+- [Web Application Security](https://www.amazon.com/dp/1492053112?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*
 
