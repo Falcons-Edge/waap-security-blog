@@ -77,6 +77,17 @@ Monitor for:
 
 Log all API requests with enough context for forensic analysis. Client IP, API key ID, endpoint, HTTP method, response status, and response size should be the minimum.
 
+
+---
+
+*Want to go deeper? Check out these resources on Amazon:*
+
+- <a href="https://www.amazon.com/dp/1617296024?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">API Security in Action</a>
+- <a href="https://www.amazon.com/dp/1718502444?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">Hacking APIs</a>
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+
 ## The Bottom Line
 
 API security in 2026 comes down to fundamentals: validate every input, authenticate every caller, authorize every action, and monitor every request. There's no magic solution. But if you implement schema validation, strong authentication, granular rate limiting, and continuous monitoring, you'll prevent the vast majority of API breaches before they happen.

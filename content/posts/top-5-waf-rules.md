@@ -74,6 +74,17 @@ The recommended deployment sequence is:
 4. Switch to BLOCK mode gradually, one rule at a time
 5. Continue monitoring for the first two weeks
 
+
+---
+
+*Want to go deeper? Check out these resources on Amazon:*
+
+- <a href="https://www.amazon.com/dp/B09VWTYB8J?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">OWASP Testing Guide</a>
+- <a href="https://www.amazon.com/dp/1593279076?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">Real-World Bug Hunting</a>
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+
 ## The Bottom Line
 
 These five rules form the foundation of any effective WAF deployment. They cover the most common attack vectors, balance security with usability, and provide a framework for ongoing tuning. Start with these, verify they don't break your application, and expand from there based on your specific threat landscape.

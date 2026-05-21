@@ -101,6 +101,17 @@ APIs need different treatment because they don't have browser interactions to an
 
 **Ignoring mobile.** Mobile bot traffic is growing. Ensure your bot mitigation works on native mobile apps, not just websites.
 
+
+---
+
+*Want to go deeper? Check out these resources on Amazon:*
+
+- <a href="https://www.amazon.com/dp/0316380520?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">The Art of Invisibility</a>
+- <a href="https://www.amazon.com/dp/1593279947?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">Web Security for Developers</a>
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+
 ## The Bottom Line
 
 There's no single magic solution for bot mitigation. Effective protection combines challenge-based detection, behavioral analysis, fingerprinting, and rate analysis into a layered defense. Start with the obvious blocks, deploy behavioral scoring for the gray areas, and continuously monitor and tune. Your analytics will thank you, your server load will drop, and your legitimate users won't even notice you're protecting them.

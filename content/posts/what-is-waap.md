@@ -49,6 +49,17 @@ Not all WAAP platforms are created equal. Here's what to evaluate:
 - **Integration ease.** How quickly can you onboard new APIs? Does it support your API gateway?
 - **Logging and analytics.** Can you search, filter, and export attack data for your SIEM?
 
+
+---
+
+*Want to go deeper? Check out these resources on Amazon:*
+
+- <a href="https://www.amazon.com/dp/1118026470?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">The Web Application Hacker's Handbook</a>
+- <a href="https://www.amazon.com/dp/1492053112?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">Web Application Security</a>
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+
 ## The Bottom Line
 
 If all you're protecting is a few traditional web pages, a WAF still serves. But if you're running modern applications with APIs, microservices, and mobile clients, WAAP isn't optional. It's the minimum viable protection for today's threat landscape. The question isn't whether to adopt WAAP — it's which platform and how fast you can implement it.

@@ -98,6 +98,17 @@ Prepare an emergency mitigation playbook. When an active DDoS attack is detected
 5. Monitor for attack evolution and adjust rules accordingly
 6. After the attack subsides, gradually return to normal settings
 
+
+---
+
+*Want to go deeper? Check out these resources on Amazon:*
+
+- <a href="https://www.amazon.com/dp/1449344763?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">High Performance Browser Networking</a>
+- <a href="https://www.amazon.com/dp/1449314465?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">Network Warrior</a>
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+
 ## The Bottom Line
 
 DDoS attacks aren't going away. They're getting bigger, smarter, and more frequent. Modern WAAP platforms provide the multi-layered defense needed to survive them: edge network capacity to absorb volumetric floods, behavioral analysis to detect application-layer attacks, and challenge mechanisms to validate traffic at the edge. The key is configuring these defenses before the attack hits — because when the flood arrives, you won't have time to build your walls.
