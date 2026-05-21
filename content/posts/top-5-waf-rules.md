@@ -85,6 +85,10 @@ The recommended deployment sequence is:
 *As an Amazon Associate I earn from qualifying purchases.*
 
 
+
+> **Download the full WAAP Security Configuration Checklist** with 60 actionable items covering WAF, rate limiting, API security, bot management, and DDoS. [Get it on Gumroad for $7](https://falconer2072.gumroad.com/l/qczxj).
+
+
 ## The Bottom Line
 
 These five rules form the foundation of any effective WAF deployment. They cover the most common attack vectors, balance security with usability, and provide a framework for ongoing tuning. Start with these, verify they don't break your application, and expand from there based on your specific threat landscape.
