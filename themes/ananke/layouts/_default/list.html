@@ -19,6 +19,7 @@
     <main>
         <a href="{{ "/" | relURL }}" class="back-link">&larr; Back to Home</a>
         <h1>{{ .Title }}</h1>
+        {{ .Content }}
         <div class="post-list">
             {{ range .Pages.ByDate.Reverse }}
             <article>
