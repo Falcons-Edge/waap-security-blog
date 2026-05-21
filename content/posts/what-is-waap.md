@@ -60,6 +60,10 @@ Not all WAAP platforms are created equal. Here's what to evaluate:
 *As an Amazon Associate I earn from qualifying purchases.*
 
 
+
+> **Need a structured deployment guide?** The [WAAP Security Configuration Checklist](https://falconer2072.gumroad.com/l/qczxj) walks through every step — WAF rules, rate limiting, API security, bot management, and DDoS protection. **$7 on Gumroad.**
+
+
 ## The Bottom Line
 
 If all you're protecting is a few traditional web pages, a WAF still serves. But if you're running modern applications with APIs, microservices, and mobile clients, WAAP isn't optional. It's the minimum viable protection for today's threat landscape. The question isn't whether to adopt WAAP — it's which platform and how fast you can implement it.

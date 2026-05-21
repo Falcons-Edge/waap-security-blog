@@ -78,4 +78,9 @@ A practical step-by-step checklist for configuring Web Application and API Prote
 - [ ] Document all rule changes
 - [ ] Create change management process for rule updates
 
+---
+**Get the printable version:** [WAAP Security Configuration Checklist](https://falconer2072.gumroad.com/l/qczxj) — **$7**
+
+**Save 30%:** [Security Checklists Bundle (All Three)](https://falconer2072.gumroad.com/l/uweoxa) — **$14.70**
+
 > **Pro Tip:** Deploy changes in monitoring/log mode first. Review for false positives for 48-72 hours before enabling block actions. This prevents accidental disruption to legitimate traffic.
