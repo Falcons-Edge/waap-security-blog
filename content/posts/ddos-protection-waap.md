@@ -103,8 +103,8 @@ Prepare an emergency mitigation playbook. When an active DDoS attack is detected
 
 *Want to go deeper? Check out these resources on Amazon:*
 
-- <a href="https://www.amazon.com/dp/1449344763?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">High Performance Browser Networking</a>
-- <a href="https://www.amazon.com/dp/1449314465?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">Network Warrior</a>
+- [High Performance Browser Networking](https://www.amazon.com/dp/1449344763?tag=falconsedge-20)
+- [Network Warrior](https://www.amazon.com/dp/1449314465?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*
 

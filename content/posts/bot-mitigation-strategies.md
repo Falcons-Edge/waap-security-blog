@@ -106,8 +106,8 @@ APIs need different treatment because they don't have browser interactions to an
 
 *Want to go deeper? Check out these resources on Amazon:*
 
-- <a href="https://www.amazon.com/dp/0316380520?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">The Art of Invisibility</a>
-- <a href="https://www.amazon.com/dp/1593279947?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">Web Security for Developers</a>
+- [The Art of Invisibility](https://www.amazon.com/dp/0316380520?tag=falconsedge-20)
+- [Web Security for Developers](https://www.amazon.com/dp/1593279947?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*
 

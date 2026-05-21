@@ -79,8 +79,8 @@ The recommended deployment sequence is:
 
 *Want to go deeper? Check out these resources on Amazon:*
 
-- <a href="https://www.amazon.com/dp/B09VWTYB8J?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">OWASP Testing Guide</a>
-- <a href="https://www.amazon.com/dp/1593279076?tag=falconsedge-20" target="_blank" rel="nofollow sponsored">Real-World Bug Hunting</a>
+- [OWASP Testing Guide](https://www.amazon.com/dp/B09VWTYB8J?tag=falconsedge-20)
+- [Real-World Bug Hunting](https://www.amazon.com/dp/1593279076?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*
 
