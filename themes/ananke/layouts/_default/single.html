@@ -15,12 +15,12 @@
         var p = window.location.pathname;
         var r = document.referrer || '';
         // Pageview tracking (1x1 pixel)
-        fetch('https://drop.falcons-edge.com/track?d='+encodeURIComponent(d)+'&p='+encodeURIComponent(p)+'&r='+encodeURIComponent(r), {mode:'no-cors'});
+        fetch('https://bridge.falcons-edge.com/navicomputer/track?d='+encodeURIComponent(d)+'&p='+encodeURIComponent(p)+'&r='+encodeURIComponent(r), {mode:'no-cors'});
         // Affiliate link click tracking
         document.addEventListener('click', function(e){
             var t = e.target.closest('a');
             if(t && t.href && t.href.indexOf('amazon.com/dp/') !== -1){
-                fetch('https://drop.falcons-edge.com/track-click?d='+encodeURIComponent(d)+'&p='+encodeURIComponent(p)+'&l='+encodeURIComponent(t.href)+'&r='+encodeURIComponent(r), {mode:'no-cors'});
+                fetch('https://bridge.falcons-edge.com/navicomputer/track-click?d='+encodeURIComponent(d)+'&p='+encodeURIComponent(p)+'&l='+encodeURIComponent(t.href)+'&r='+encodeURIComponent(r), {mode:'no-cors'});
             }
         });
     })();
