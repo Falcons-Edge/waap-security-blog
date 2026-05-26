@@ -54,7 +54,7 @@ For zero-trust API segmentation strategies that close the gaps WAAPs can't reach
 
 *Want to go deeper? Check out these resources on Amazon:*
 
-- [Hacking APIs](https://www.amazon.com/dp/1718502444?tag=falconsedge-20)
-- [OWASP Testing Guide](https://www.amazon.com/dp/B09VWTYB8J?tag=falconsedge-20)
+- [Hacking APIs](https://www.amazon.com/dp/0071821104?tag=falconsedge-20)
+- [OWASP Testing Guide](https://www.amazon.com/dp/1118026470?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*

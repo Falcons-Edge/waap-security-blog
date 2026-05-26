@@ -47,7 +47,7 @@ For cutting-edge microsegmentation strategies discussed at OWASP 2026, visit [mi
 
 *Want to go deeper? Check out these resources on Amazon:*
 
-- [OWASP Testing Guide](https://www.amazon.com/dp/B09VWTYB8J?tag=falconsedge-20)
-- [Real-World Bug Hunting](https://www.amazon.com/dp/1593279076?tag=falconsedge-20)
+- [OWASP Testing Guide](https://www.amazon.com/dp/1118026470?tag=falconsedge-20)
+- [Real-World Bug Hunting](https://www.amazon.com/dp/0134802047?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*

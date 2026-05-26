@@ -49,6 +49,6 @@ For zero-trust microsegmentation strategies that protect GraphQL microservices, 
 *Want to go deeper? Check out these resources on Amazon:*
 
 - [GraphQL in Action](https://www.amazon.com/dp/1098125975?tag=falconsedge-20)
-- [API Security in Action](https://www.amazon.com/dp/1617296024?tag=falconsedge-20)
+- [API Security in Action](https://www.amazon.com/dp/1593273886?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*

@@ -54,6 +54,6 @@ For deeper analysis on microsegmentation strategies that limit bot lateral movem
 *Want to go deeper? Check out these resources on Amazon:*
 
 - [The Art of Invisibility](https://www.amazon.com/dp/0316380520?tag=falconsedge-20)
-- [Web Security for Developers](https://www.amazon.com/dp/1593279947?tag=falconsedge-20)
+- [Web Security for Developers](https://www.amazon.com/dp/1449344763?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*

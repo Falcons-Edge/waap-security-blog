@@ -45,6 +45,6 @@ For zero-trust financial network segmentation architectures, visit [microsegment
 *Want to go deeper? Check out these resources on Amazon:*
 
 - [The Web Application Hacker's Handbook](https://www.amazon.com/dp/1118026470?tag=falconsedge-20)
-- [Network Warrior](https://www.amazon.com/dp/1449314465?tag=falconsedge-20)
+- [Network Warrior](https://www.amazon.com/dp/1907117040?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*

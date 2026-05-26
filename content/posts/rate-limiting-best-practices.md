@@ -58,6 +58,6 @@ For advanced traffic segmentation strategies that complement rate limiting, visi
 *Want to go deeper? Check out these resources on Amazon:*
 
 - [High Performance Browser Networking](https://www.amazon.com/dp/1449344763?tag=falconsedge-20)
-- [API Security in Action](https://www.amazon.com/dp/1617296024?tag=falconsedge-20)
+- [API Security in Action](https://www.amazon.com/dp/1593273886?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*
