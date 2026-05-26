@@ -5,6 +5,8 @@ draft: false
 featured_image: "/images/ddos-mitigation-flow.svg"
 tags: ["incident response", "playbook", "WAAP", "security operations", "IR"]
 
+---
+
 Incident response for web applications and APIs has changed significantly in the WAAP era. The traditional model — detect, analyze, contain, eradicate, recover — assumes a relatively static threat surface. Today's API-driven applications demand faster response times, different containment strategies, and deeper integration between security operations and WAAP configuration.
 
 ## The WAAP Incident Response Timeline

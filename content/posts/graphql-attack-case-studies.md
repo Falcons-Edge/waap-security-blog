@@ -4,6 +4,7 @@ date: 2026-05-25T08:00:00Z
 draft: false
 featured_image: "/images/graphql-security.svg"
 tags: ["GraphQL", "attacks", "case studies", "incidents", "2026", "WAAP"]
+---
 
 The first five months of 2026 have produced a series of significant GraphQL security incidents that offer important lessons for anyone running a GraphQL API. These are not theoretical attacks — they happened to real organizations, and the patterns they reveal are critical for WAAP configuration.
 
