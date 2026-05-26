@@ -48,7 +48,7 @@ For zero-trust API security architectures that complement your WAAP deployment, 
 
 *Want to go deeper? Check out these resources on Amazon:*
 
-- [API Security in Action](https://www.amazon.com/dp/1617296024?tag=falconsedge-20)
-- [Hacking APIs](https://www.amazon.com/dp/1718502444?tag=falconsedge-20)
+- [API Security in Action](https://www.amazon.com/dp/1593273886?tag=falconsedge-20)
+- [Hacking APIs](https://www.amazon.com/dp/0071821104?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*

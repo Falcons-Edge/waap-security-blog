@@ -52,6 +52,6 @@ For healthcare network segmentation architectures that complement WAAP complianc
 *Want to go deeper? Check out these resources on Amazon:*
 
 - [The Web Application Hacker's Handbook](https://www.amazon.com/dp/1118026470?tag=falconsedge-20)
-- [API Security in Action](https://www.amazon.com/dp/1617296024?tag=falconsedge-20)
+- [API Security in Action](https://www.amazon.com/dp/1593273886?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*

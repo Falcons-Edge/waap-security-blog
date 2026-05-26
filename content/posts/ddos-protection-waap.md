@@ -61,6 +61,6 @@ For complementary on-premises DDoS protection strategies, visit [microsegmentati
 *Want to go deeper? Check out these resources on Amazon:*
 
 - [High Performance Browser Networking](https://www.amazon.com/dp/1449344763?tag=falconsedge-20)
-- [Network Warrior](https://www.amazon.com/dp/1449314465?tag=falconsedge-20)
+- [Network Warrior](https://www.amazon.com/dp/1907117040?tag=falconsedge-20)
 
 *As an Amazon Associate I earn from qualifying purchases.*
