@@ -4,6 +4,7 @@ date: 2026-05-04T08:00:00Z
 draft: false
 featured_image: "/images/waap-architecture.svg"
 tags: ["healthcare", "HIPAA", "compliance", "ePHI", "API security", "WAAP"]
+---
 
 Healthcare organizations face a unique challenge in API security: they must protect electronic protected health information (ePHI) according to HIPAA requirements while enabling the interoperability that modern healthcare demands. The new HIPAA API security guidelines, effective June 2026, add specific requirements for API security controls that WAAP platforms are uniquely positioned to fulfill.
 
