@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="gql" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e535ab"/>
+      <stop offset="100%" style="stop-color:#ff4785"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="800" height="450" fill="none" stroke="#334155" stroke-width="2" rx="12"/>
+
+  <text x="400" y="40" text-anchor="middle" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="20" font-weight="bold">GraphQL Security: The WAAP Blind Spot</text>
+  <text x="400" y="60" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="12">What WAAPs Miss and How to Fix It</text>
+
+  <!-- GraphQL logo diamond -->
+  <polygon points="400,80 440,120 400,160 360,120" fill="none" stroke="url(#gql)" stroke-width="3"/>
+  <path d="M370,115 L430,125" stroke="#e535ab" stroke-width="1.5" opacity="0.6"/>
+  <path d="M370,125 L430,115" stroke="#e535ab" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- WAAP shield (partial/weak) -->
+  <rect x="60" y="180" width="320" height="100" rx="10" fill="#1e293b" stroke="#f87171" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="220" y="208" text-anchor="middle" fill="#f87171" font-family="system-ui,sans-serif" font-size="13" font-weight="bold">WAAP Protection — But Not Enough</text>
+  <text x="95" y="232" text-anchor="middle" fill="#fda4af" font-family="system-ui,sans-serif" font-size="9">✓ WAF signatures</text>
+  <text x="220" y="232" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">✗ Over-fetching</text>
+  <text x="345" y="232" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">✗ Introspection</text>
+  <text x="95" y="252" text-anchor="middle" fill="#fda4af" font-family="system-ui,sans-serif" font-size="9">✓ Rate limiting</text>
+  <text x="220" y="252" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">✗ Depth queries</text>
+  <text x="345" y="252" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">✗ Batching abuse</text>
+  <text x="95" y="270" text-anchor="middle" fill="#fda4af" font-family="system-ui,sans-serif" font-size="9">✓ Bot detection</text>
+  <text x="220" y="270" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">✗ Aliasing</text>
+  <text x="345" y="270" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">✗ Cost analysis</text>
+
+  <!-- Arrow from WAAP to GQL-specific -->
+  <line x1="380" y1="230" x2="420" y2="230" stroke="#e535ab" stroke-width="2.5"/>
+  <polygon points="425,230 417,224 417,236" fill="#e535ab"/>
+
+  <!-- GraphQL-specific defenses -->
+  <rect x="430" y="180" width="310" height="100" rx="10" fill="#0c4a6e" stroke="#e535ab" stroke-width="2"/>
+  <text x="585" y="208" text-anchor="middle" fill="#e535ab" font-family="system-ui,sans-serif" font-size="13" font-weight="bold">GraphQL-Specific Defenses</text>
+  <text x="585" y="232" text-anchor="middle" fill="#f9a8d4" font-family="system-ui,sans-serif" font-size="9">Query depth limiting</text>
+  <text x="585" y="248" text-anchor="middle" fill="#f9a8d4" font-family="system-ui,sans-serif" font-size="9">Query cost analysis</text>
+  <text x="585" y="264" text-anchor="middle" fill="#f9a8d4" font-family="system-ui,sans-serif" font-size="9">Alias limiting &amp; batch controls</text>
+
+  <!-- Threats column on left -->
+  <rect x="60" y="295" width="170" height="130" rx="8" fill="#881337" stroke="#fb7185" stroke-width="1.5" opacity="0.9"/>
+  <text x="145" y="316" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">GraphQL Attack Vectors</text>
+  <text x="145" y="338" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">Nested DoS query</text>
+  <text x="145" y="354" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">Introspection leak</text>
+  <text x="145" y="370" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">Aliased resource drain</text>
+  <text x="145" y="386" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">Batched brute force</text>
+  <text x="145" y="402" text-anchor="middle" fill="#fca5a5" font-family="system-ui,sans-serif" font-size="9">Directive injection</text>
+
+  <!-- Mitigations column on right -->
+  <rect x="250" y="295" width="490" height="130" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="1.5" opacity="0.9"/>
+  <text x="495" y="316" text-anchor="middle" fill="#6ee7b7" font-family="system-ui,sans-serif" font-size="11" font-weight="bold">Mitigation Strategy</text>
+  <text x="495" y="338" text-anchor="middle" fill="#6ee7b7" font-family="system-ui,sans-serif" font-size="9">Depth &amp; cost limiting → Nested recursive protections</text>
+  <text x="495" y="354" text-anchor="middle" fill="#6ee7b7" font-family="system-ui,sans-serif" font-size="9">Introspection disable in prod → schema whitelisting</text>
+  <text x="495" y="370" text-anchor="middle" fill="#6ee7b7" font-family="system-ui,sans-serif" font-size="9">Alias cap + timeouts → resolver-level authz</text>
+  <text x="495" y="386" text-anchor="middle" fill="#6ee7b7" font-family="system-ui,sans-serif" font-size="9">Batch limits + throttling → query complexity scoring</text>
+  <text x="495" y="402" text-anchor="middle" fill="#6ee7b7" font-family="system-ui,sans-serif" font-size="9">Allowlist directives → persistent queries enforce</text>
+
+  <text x="400" y="438" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="9">WAAP + GraphQL-specific hardening | Full API security coverage</text>
+</svg>
