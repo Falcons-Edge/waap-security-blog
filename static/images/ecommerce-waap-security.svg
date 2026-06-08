@@ -1,0 +1,51 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#1a1a2e"/>
+
+  <!-- E-commerce icon -->
+  <rect x="50" y="70" width="100" height="80" rx="5" ry="5" fill="#4a4e69" stroke="#9a8c98" stroke-width="2"/>
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle">🛒</text>
+  <text x="100" y="135" font-family="Arial, sans-serif" font-size="11" fill="#c9c9d3" text-anchor="middle">E-commerce</text>
+
+  <!-- WAAP Shield -->
+  <rect x="230" y="60" width="140" height="100" rx="10" ry="10" fill="#22223b" stroke="#2a9d8f" stroke-width="3"/>
+  <text x="300" y="105" font-family="Arial, sans-serif" font-size="32" fill="#2a9d8f" text-anchor="middle">🛡️</text>
+  <text x="300" y="128" font-family="Arial, sans-serif" font-size="16" fill="#2a9d8f" text-anchor="middle" font-weight="bold">WAAP</text>
+  <text x="300" y="145" font-family="Arial, sans-serif" font-size="10" fill="#9a8c98" text-anchor="middle">WAF · API · Bot · DDoS</text>
+
+  <!-- Customer -->
+  <rect x="450" y="70" width="100" height="80" rx="5" ry="5" fill="#4a4e69" stroke="#9a8c98" stroke-width="2"/>
+  <text x="500" y="110" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" text-anchor="middle">👤</text>
+  <text x="500" y="135" font-family="Arial, sans-serif" font-size="11" fill="#c9c9d3" text-anchor="middle">Customer</text>
+
+  <!-- Arrow from Customer to WAAP -->
+  <path d="M 450 110 Q 380 90, 370 110" fill="none" stroke="#2a9d8f" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="370,105 365,115 375,112" fill="#2a9d8f"/>
+
+  <!-- Arrow from E-commerce to WAAP -->
+  <path d="M 150 110 Q 200 90, 230 110" fill="none" stroke="#e76f51" stroke-width="2"/>
+  <polygon points="230,105 225,115 235,112" fill="#e76f51"/>
+
+  <!-- Attack arrows from bottom -->
+  <path d="M 100 200 Q 100 170, 100 150" fill="none" stroke="#e76f51" stroke-width="2"/>
+  <text x="95" y="220" font-family="Arial, sans-serif" font-size="11" fill="#e76f51" text-anchor="end">Bots</text>
+  <path d="M 180 200 Q 180 170, 180 150" fill="none" stroke="#e76f51" stroke-width="2"/>
+  <text x="175" y="220" font-family="Arial, sans-serif" font-size="11" fill="#e76f51" text-anchor="end">DDoS</text>
+  <path d="M 300 220 Q 300 180, 300 160" fill="none" stroke="#e76f51" stroke-width="2"/>
+  <text x="295" y="245" font-family="Arial, sans-serif" font-size="11" fill="#e76f51" text-anchor="end">API Abuse</path>
+
+  <!-- Blocked indicators -->
+  <g>
+    <line x1="92" y1="155" x2="108" y2="145" stroke="#e76f51" stroke-width="3"/>
+    <line x1="92" y1="145" x2="108" y2="155" stroke="#e76f51" stroke-width="3"/>
+    <line x1="172" y1="155" x2="188" y2="145" stroke="#e76f51" stroke-width="3"/>
+    <line x1="172" y1="145" x2="188" y2="155" stroke="#e76f51" stroke-width="3"/>
+    <line x1="292" y1="165" x2="308" y2="155" stroke="#e76f51" stroke-width="3"/>
+    <line x1="292" y1="155" x2="308" y2="165" stroke="#e76f51" stroke-width="3"/>
+  </g>
+
+  <!-- Server behind WAAP -->
+  <rect x="230" y="210" width="140" height="40" rx="5" ry="5" fill="#4a4e69" stroke="#9a8c98" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="300" y="235" font-family="Arial, sans-serif" font-size="12" fill="#9a8c98" text-anchor="middle">Protected Origin</text>
+  <line x1="300" y1="160" x2="300" y2="210" stroke="#2a9d8f" stroke-width="2" stroke-dasharray="3,3"/>
+</svg>
