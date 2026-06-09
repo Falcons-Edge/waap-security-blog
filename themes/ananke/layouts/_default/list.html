@@ -7,6 +7,21 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="stylesheet" href="/css/style.css">
     <meta name="description" content="{{ .Site.Params.description | default .Site.Title }}">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "{{ .Title }} - {{ .Site.Title }}",
+        "description": "{{ .Site.Params.description }}",
+        "url": "{{ .Permalink }}",
+        "mainEntity": {
+            "@type": "Blog",
+            "name": "{{ .Site.Title }}"
+        }
+    }
+    </script>
+    <!-- Google Search Console placeholder: add <meta name="google-site-verification" content="..."> here -->
+    <!-- Google Analytics placeholder: add GA4 gtag snippet here -->
     <script>
     (function(){
         var d = window.location.hostname;
@@ -22,14 +37,6 @@
             }
         });
     })();
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EL89WGT4K3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-EL89WGT4K3');
     </script>
 </head>
 <body>

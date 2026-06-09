@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="/css/style.css">
     <meta name="description" content="{{ .Site.Params.description | default .Site.Title }}">
     <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "/index.xml" | absURL }}">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "{{ .Site.Title }}",
+        "description": "{{ .Site.Params.description }}",
+        "url": "{{ .Site.BaseURL }}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ .Site.Title }}"
+        }
+    }
+    </script>
+    <!-- Google Search Console placeholder: add <meta name="google-site-verification" content="..."> here -->
+    <!-- Google Analytics placeholder: add GA4 gtag snippet here -->
     <script>
     (function(){
         var d = window.location.hostname;
@@ -23,14 +38,6 @@
             }
         });
     })();
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EL89WGT4K3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-EL89WGT4K3');
     </script>
 </head>
 <body>
