@@ -3,7 +3,7 @@ title: "Financial Sector WAAP Deployments: Case Studies and Lessons"
 date: 2026-04-06T08:00:00Z
 draft: false
 featured_image: "/images/waap-architecture.svg"
-tags: ["financial", "banking", "WAAP", "deployment", "case studies", "finance"]
+tags: ["financial", "banking", "WAAP", "deployment", "case studies", "finance", "compliance", "API security"]
 ---
 
 The financial sector has been one of the fastest adopters of WAAP technology, driven by both regulatory pressure and the direct financial impact of API breaches. Three recent case studies from Q1 2026 illustrate the challenges and successes of WAAP deployment in financial environments.
