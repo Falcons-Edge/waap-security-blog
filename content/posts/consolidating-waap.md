@@ -34,5 +34,7 @@ If you’re tired of the security tool merry-go-round, it’s time to look at WA
 
 **Affiliate Links:**
 
-*   [The Art of Network Penetration Testing](https://www.amazon.com/dp/1119735896) (ASIN: 1119735896)
-*   [Practical<bos> Packet Analysis: Using Wireshark to Solve Real-World Network Problems](https://www.amazon.com/dp/1118474966) (ASIN: 1118474966)
+*   [The Art of Network Penetration Testing](https://www.amazon.com/dp/1119735896?tag=falconsedge-20) (ASIN: 1119735896)
+*   [Practical Packet Analysis: Using Wireshark to Solve Real-World Network Problems](https://www.amazon.com/dp/1118474966?tag=falconsedge-20) (ASIN: 1118474966)
+
+*As an Amazon Associate I earn from qualifying purchases.*
