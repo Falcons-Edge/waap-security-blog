@@ -10,3 +10,8 @@ description = "Expert guidance on WAF, API security, bot mitigation, and DDoS pr
 tagline = "Web security. API defense. Bot mitigation. DDoS protection."
 about = "We cover the full spectrum of web application and API protection — from WAF rule tuning to API security best practices, bot detection strategies, and DDoS mitigation. Built by security engineers who have defended some of the largest web properties on the internet."
 topics = ["WAF", "API Security", "Bot Management", "DDoS Protection", "WAAP"]
+
+# GA4 measurement ID - add your G-XXXXXXXXXX here
+# googleAnalytics = "G-XXXXXXXXXX"
+# Google Search Console verification
+# googleSiteVerification = "..."
