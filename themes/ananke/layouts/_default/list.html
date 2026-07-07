@@ -7,6 +7,10 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="stylesheet" href="/css/style.css">
     <meta name="description" content="{{ .Site.Params.description | default .Site.Title }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}">
+    <meta name="twitter:description" content="{{ .Site.Params.description }}">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
